@@ -229,8 +229,8 @@ public class BillingAgreementServiceImpl implements BillingAgreementService {
 		creditCard.setExpireYear(2021);
 		creditCard.setFirstName("Pranish");
 		creditCard.setLastName("Shrestha");
-		creditCard.setNumber("4032035145786042");
-		creditCard.setType("visa");
+		creditCard.setNumber("5308170003013017");
+		creditCard.setType("mastercard");
 
 		return creditCard;
 	}

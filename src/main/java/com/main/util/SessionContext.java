@@ -22,6 +22,10 @@ public class SessionContext {
 		String clientID = "AYDNebhrsuqiUKPU_ab-tCvGGVkzaxw2y4bIJFIl4rMuCWZsPLQqEsBelM3kjlaB0_Nu-UX-LJQw8l0Z";
 		String clientSecret="ENgjkFRgy1yGhal0aobwdF8kLNglkDaDeDItLN-lgQJZV4W1FpNQ27g3FC6TNd1swtroXAdVT390O4C8";
 		
+//		String  clientID="AcziXHd-t2OZUG5rvfgP9s8lmZdlOWZrEi3wd_6SexgaaNwCa_UFIwNbNZoH5XSOvxQWtpI-3YmKx_-x";
+//		String	clientSecret="ECWxcoSNOurNE3tLmzGBIXt96R7Vnbhx-rodYgX-n9Xwui8HGOsGxrJwMRMsWdx22oD-zxWD_2y3UBzQ";
+		
+		
 		/*pranish.stha03*/
 //		String clientID =  "AYnL5CYn1bAKIIT-DmMX3Tr38cM4ep8nljvcB-k_ByEDL_PMmfnr1lgwNyX1DQZOe7U7jZ6Itkzw0Tx9";
 //		String clientSecret="EKhNwH5qlyXrom72HEb9VAI5bxx0g8RRTEhmTmal8C5c3huBiHxA_JpczuCBOSBYyA57GFk-Parnxhl_";

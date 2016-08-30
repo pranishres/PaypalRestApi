@@ -39,7 +39,8 @@ public class PaymentServiceImpl implements PaymentService {
 	@Autowired
 	TransactionRepo transactionRepo;
 
-	String MY_CARD_NO = "4032035145786042";
+//	String MY_CARD_NO = "4032035145786042";
+	String MY_CARD_NO = "453992848224177" ;
 	String MY_MASTERCARD = "5308170003013017";
 
 	public Payment createSimplePaypalPayment(String accessToken) {
@@ -223,8 +224,8 @@ public class PaymentServiceImpl implements PaymentService {
 		creditCard.setExpireYear(2021);
 		creditCard.setFirstName("Pranish");
 		creditCard.setLastName("Shrestha Credit Card");
-		creditCard.setNumber(MY_CARD_NO);
-		creditCard.setType("visa");
+		creditCard.setNumber(MY_MASTERCARD);
+		creditCard.setType("mastercard");
 
 		return creditCard;
 	}
