@@ -4,13 +4,10 @@ import java.io.UnsupportedEncodingException;
 import java.net.MalformedURLException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.HashMap;
 import java.util.List;
 import java.util.TimeZone;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.Pageable;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -18,7 +15,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.main.dto.BillingAgreementDTO;
-import com.main.persistence.entity.BillingAgreement;
 import com.main.persistence.service.BillingAgreementService;
 import com.main.util.SessionContext;
 import com.paypal.api.payments.Agreement;
